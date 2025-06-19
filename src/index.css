@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 @import "tailwindcss";
 
@@ -19,3 +20,25 @@ html{
 button{
   cursor: pointer;
 }
+=======
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@theme {
+    --color-black: #222222;
+    --color-darkblue: #142978;
+    --color-white: #FFFFFF;
+}
+
+>>>>>>> d1fcd4bc9e0b432642b374d95cc4314df5332621
