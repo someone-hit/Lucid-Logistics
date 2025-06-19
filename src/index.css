@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     max-width: 1280px;
     padding: 0 20px;
@@ -16,5 +10,10 @@
     --color-black: #222222;
     --color-darkblue: #142978;
     --color-white: #FFFFFF;
+    --color-darkwhite: #F1F1F180;
+}
+
+button {
+    cursor: pointer;
 }
 

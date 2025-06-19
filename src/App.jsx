@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Course from './Pages/Course'
+import Aboutcourse from './Pages/Aboutcourse'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +8,7 @@ function App() {
   return (
     <>
     <Course />
+    <Aboutcourse />
     </>
   )
 }
