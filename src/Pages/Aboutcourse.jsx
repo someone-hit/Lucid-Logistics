@@ -19,16 +19,14 @@ const Aboutcourse = () => {
         <div className="flex justify-center mt-[60px]">
           <Button text={"KURSDA QATNASHISH"} />
         </div>
-        <div className="mt-[100px] relative">
-          <div className="absolute">
-            <img src={big} alt={big} />
-          </div>
+        <div className="mt-[100px]">
+          <img src={big} alt={big} />
         </div>
         <div className="mt-[85px]">
-          <div className="hidden lg:flex lg:absolute lg:-bottom-230 lg:right-0">
+          <div className="hidden lg:flex lg:justify-end">
             <img src={plus} alt={plus} />
           </div>
-          <div className="absolute -bottom-156 md:-bottom-176 lg:-bottom-270 text-center">
+          <div className="text-center -mt-[40px] lg:pt-[40px]">
             <h1 className="font-bold text-[36px] text-black">
               Kursni{" "}
               <span className="text-darkblue">
@@ -38,7 +36,7 @@ const Aboutcourse = () => {
               <span className="text-darkblue">ishlashingiz mumkin</span>{" "}
             </h1>
           </div>
-          <div className="hidden lg:flex lg:absolute lg:-bottom-292">
+          <div className="hidden lg:flex lg:mt-[30px]">
             <img src={circles} alt={circles} />
           </div>
         </div>
